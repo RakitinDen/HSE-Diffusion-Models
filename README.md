@@ -14,7 +14,9 @@ This course aims to introduce students to the foundations of diffusion models an
 ## Course Staff
 
 Lectures: Denis Rakitin
+
 Seminars: Alexander Oganov
+
 Teaching assistant: Alexander Zaytsev
 
 ## Navigation
