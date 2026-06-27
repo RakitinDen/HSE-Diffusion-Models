@@ -1,17 +1,22 @@
-# Generative models based on ODE and SDE
+# Diffusion-based Generative Models
 
-This tutorial aims to introduce the reader to the mathematical methods which are widely used in contemporary generative modeling. Covered methods are applicable for generation, paired style transfer (including inverse problems) and unpaired style transfer, formalized as an optimal transport problem.
+This repository contains lecture notes, seminar problems, homework assignments, and supplementary materials for the Diffusion-Based Generative Models course taught to Bachelor’s and Master’s students at the [Faculty of Computer Science](https://cs.hse.ru/en/) of HSE University. The course materials are also available on the [FCS Wiki](http://wiki.cs.hse.ru/Генеративные_модели_на_основе_диффузии_(25/26)), which also contains organizational information about the course.
+
+This course aims to introduce students to the foundations of diffusion models and modern generative modeling more broadly, with an emphasis on detailed mathematical derivations and applications to research-oriented problems. The materials cover, among other topics:
+
+- stochastic differential equations, continuity and Fokker–Planck equations;
+- continuous-time diffusion models, the score identity, denoising score matching, and classifier/classifier-free guidance;
+- distillation of diffusion models into few-step generators, including Consistency Distillation and Distribution Matching Distillation;
+- ODE solvers for efficient sampling from diffusion models;
+- Flow Matching, Bridge Matching, Rectified Flow, and their connections to optimal transport;
+- Schrödinger bridges as a unifying perspective on unpaired translation, sampling, and reward alignment.
 
 ## Navigation
 
-Current version of the tutorial can be found at `main.pdf`. The corresponding source files `main.tex` and `references.bib` are located in the root folder.
+Current version of the lecture notes can be found at `main.pdf`.
 
-It uses a modified NeurIPS-2023 style file `neurips_2023.sty`: https://neurips.cc/Conferences/2023/PaperInformation/StyleFiles.
-
-`old` folder contains an old version of the tutorial, written in Russian. It contains a little bit different set and sequence of topics.
+Seminars and materials: coming soon.
 
 ## Contents:
-1. Score-based generative models. Noise Conditional Score Networks (NCSN): https://arxiv.org/abs/1907.05600.
-2. ODEs: reminder. SDEs: informal defitnition with Euler-Maruyama scheme. Evolution of the distribution: continuity equation, Fokker-Planck equation.
-3. Construction of the backward SDE. Diffusion models based on SDEs: https://arxiv.org/abs/2011.13456.
-4. Calculating likelihood of ODE diffusion models. Conditional generation: classifier (https://arxiv.org/abs/2011.13456, https://arxiv.org/abs/2105.05233) and classifier-free (https://arxiv.org/abs/2207.12598) guidance.
+
+Coming soon.
