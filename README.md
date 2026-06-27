@@ -11,6 +11,12 @@ This course aims to introduce students to the foundations of diffusion models an
 - Flow Matching, Bridge Matching, Rectified Flow, and their connections to optimal transport;
 - Schrödinger bridges as a unifying perspective on unpaired translation, sampling, and reward alignment.
 
+## Course Staff
+
+Lectures: Denis Rakitin
+Seminars: Alexander Oganov
+Teaching assistant: Alexander Zaytsev
+
 ## Navigation
 
 Current version of the lecture notes can be found at `main.pdf`.
